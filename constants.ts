@@ -64,7 +64,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 ];
 
 export const EDUCATION: EducationItem[] = [
-    { degree: 'Diploma in Software Development', institution: 'IIE Rosebank College' }
+    { degree: 'Diploma in Software Development', institution: 'IIE Rosebank College', dateRange: '2022-2024' }
 ];
 
 export const CERTIFICATIONS: Certification[] = [
