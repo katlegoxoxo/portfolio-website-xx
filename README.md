@@ -1,20 +1,24 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="Portfolio Banner" src="assets/images/giphy.gif" />
 </div>
 
-# Run and deploy your AI Studio app
+# My Portfolio
 
-This contains everything you need to run your app locally.
+This is my personal portfolio website showcasing my projects, skills, and experience.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1j4kDPTIu-1w2QJS_Ds5t0rc_op12B4t5
+## Tech Stack
+
+- **React** — for building interactive UI  
+- **TypeScript** — for type-safe development  
+- **Tailwind CSS** — for styling  
+- **Framer Motion** — for animations  
+- **Vite / Webpack** — for bundling  
+- **Git & GitHub** — for version control  
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
