@@ -25,7 +25,8 @@ export const PROJECTS: Project[] = [
     description: 'Created an AI-powered image generation app using modern JS and APIs for creative automation.',
     technologies: ['HTML', 'JavaScript', 'APIs'],
     githubUrl: 'https://github.com/katlegoxoxo/image-gen-xo.git',
-    imageUrl: 'https://picsum.photos/seed/imagegen/800/600',
+    imageUrl: '/assets/images/slatt.png',
+
   },
   {
     name: 'AI Fundamentals Chatbot',
