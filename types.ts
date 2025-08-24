@@ -22,6 +22,7 @@ export interface SkillCategory {
 export interface EducationItem {
   degree: string;
   institution: string;
+  dateRange?: string;
 }
 
 export interface Certification {
