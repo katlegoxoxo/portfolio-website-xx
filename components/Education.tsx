@@ -14,7 +14,10 @@ const Education: React.FC<EducationProps> = ({ id, title }) => {
         <ul>
           {EDUCATION.map(item => (
             <li key={item.degree} className="text-slate-400">
-              <p className="font-semibold text-slate-300">{item.degree}</p>
+              <div className="flex justify-between items-baseline">
+                <p className="font-semibold text-slate-300">{item.degree}</p>
+                {item.dateRange && <span className="font-mono text-xs text-slate-500">{item.dateRange}</span>}
+              </div>
               <p>{item.institution}</p>
             </li>
           ))}
